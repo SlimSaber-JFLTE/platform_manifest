@@ -23,7 +23,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SlimSaber-JFLTE/platform_build" groups="pdk" remote="github" revision="jflte-mm6.0" >
+  <project path="build" name="SlimSaber-JFLTE/android_build" groups="pdk" remote="github" revision="jflte-mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
