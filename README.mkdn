@@ -21,10 +21,12 @@ Building SlimSaber
 ------------------
 
 	. build/envsetup.sh
-	brunch find7op
+	lunch
+	Pick slimsaber_jflte-userdebug
+	make -j4 bacon
 
 or
 
-	. build_rom.sh find7op c
+	. build_rom.sh jflte c (not tested for the moment)
 
 See https://github.com/SlimSaber/scripts for more info
