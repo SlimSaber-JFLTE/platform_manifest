@@ -18,10 +18,7 @@
   <remote  name="slimsaber"
            fetch="https://github.com/SlimSaber" />
 
- <remote  name="SlimSaber-JFLTE"
-           fetch="https://github.com/SlimSaber-JFLTE" />
-
-  <default revision="refs/tags/android-6.0.1_r16"
+   <default revision="refs/tags/android-6.0.1_r16"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -467,7 +464,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="external/zlib" name="android_external_zlib" remote="slimsaber" revision="mm6.0" groups="pdk" />
 
-  <project path="frameworks/av" name="frameworks_av" remote="slimsaber" revision="mm6.0" groups="pdk" />		 +  <project path="frameworks/av" name="frameworks_av" remote="SlimSaber-JFLTE" revision="mm6.0" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" remote="slimsaber" revision="mm6.0" groups="pdk" />
   <project path="frameworks/av-caf" name="frameworks_av" remote="slimsaber" revision="mm6.0-caf" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slimsaber" revision="mm6.0" />
