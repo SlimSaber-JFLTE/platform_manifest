@@ -247,7 +247,6 @@
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
@@ -451,6 +450,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimsaber" revision="mm6.0" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slimsaber" revision="mm6.0" />
   <project path="external/libphonenumber" name="android_external_libphonenumber" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/webp" name="android_external_webp" remote="slimsaber" revision="mm6.0" groups="pdk,qcom_msm8x26" />
 
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
