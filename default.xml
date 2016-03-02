@@ -478,7 +478,10 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-13.0" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
-
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
+  
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slimsaber" revision="mm6.0" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="slimsaber" revision="mm6.0" />
