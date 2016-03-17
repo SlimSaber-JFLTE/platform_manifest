@@ -507,7 +507,7 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="slimsaber" revision="mm6.0" />
 
   <!-- Device tree -->
-  <project path="device/samsung/jflte" name="SlimSaber-JFLTE/platform_device_samsung_jflte" remote="github" revision="slimsaber-6.0" />
+  <project path="device/samsung/jflte" name="SlimSaber-JFLTE/platform_device_samsung_jflte" remote="github" revision="jflte-mm6.0" />
   <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
   <project path="kernel/samsung/jf" name="SlimSaber-JFLTE/android_kernel_samsung_jf" remote="github" revision="jflte-mm6.0" />
 
