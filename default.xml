@@ -116,7 +116,7 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/guava" name="android_external_guava" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
@@ -273,7 +273,7 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="omnirom" revision="android-6.0" />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="omnirom" revision="android-6.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
@@ -348,7 +348,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omnirom" revision="android-6.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnirom" revision="android-6.0" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="omnirom" revision="android-6.0" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
@@ -379,7 +379,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-6.0" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimsaber" revision="mm6.0" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="omnirom" revision="android-6.0" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -499,7 +499,7 @@
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="slimsaber" revision="mm6.0" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="slimsaber" revision="mm6.0" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="slimsaber" revision="mm6.0" groups="pdk-cw-fs" />
-  <project path="system/bt" name="android_system_bt" remote="slimsaber" revision="mm6.0" groups="pdk" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <!-- <project path="system/core" name="android_system_core" remote="slimsaber" revision="mm6.0" groups="pdk" /> -->
   <project path="system/core" name="SlimSaber-JFLTE/android_system_core" remote="github" revision="mm6.0" groups="pdk" />
   <project path="system/extras" name="android_system_extras" remote="slimsaber" revision="mm6.0" groups="pdk" />
